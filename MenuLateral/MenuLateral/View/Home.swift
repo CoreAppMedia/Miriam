@@ -50,6 +50,9 @@ struct Home: View {
             )
             Spacer()
             Text("Buena nochis")
+            Text("Hola Miriam")
+            
+            Spacer()
         }//VStack
     }
 }
