@@ -49,6 +49,7 @@ struct Home: View {
                     .frame(width: 25,height: 25)
             )
             Spacer()
+            Text("Buena nochis")
         }//VStack
     }
 }
