@@ -111,13 +111,16 @@ struct CalendarPicker: View {
             Rectangle()
                 .fill(Color.green.opacity(0.2)) // Agrega el fondo verde claro al calendario
                 .cornerRadius(10)
-            DatePicker(
-                "Selecciona una fecha",
-                selection: $selectedDate,
-                displayedComponents: [.date]
-            )
-            .datePickerStyle(GraphicalDatePickerStyle())
-            .labelsHidden()
+            VStack{
+                
+                DatePicker(
+                    "Selecciona una fecha",
+                    selection: $selectedDate,
+                    displayedComponents: [.date]
+                )
+                .datePickerStyle(GraphicalDatePickerStyle())
+                .labelsHidden()
+            }
         }
     }// llave funcion
     
