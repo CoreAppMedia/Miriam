@@ -8,10 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
-
+    @AppStorage("status") var logged = false
 
     var body: some View {
-     Text("Hola mundo")
+        NavigationView{
+            if logged{
+                Calendario()
+                    .navigationBarHidden(false)
+                    .preferredColorScheme(.light)
+            }else{
+                Login()
+                    .preferredColorScheme(.dark)
+                    .navigationBarHidden(true)
+                
+            }
+        }
     }
 }
 

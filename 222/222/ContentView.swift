@@ -14,6 +14,7 @@ struct CalendarView: View {
     @State private var events: [Event] = []
 
     var body: some View {
+        
         NavigationView {
             VStack {
                 Text("Logros")
