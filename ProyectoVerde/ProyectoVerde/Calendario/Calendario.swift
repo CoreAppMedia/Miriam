@@ -53,34 +53,40 @@ struct Calendario: View {
                 Spacer()
                 HStack {
                     Spacer()
-                    Button(action: {
-                        // Acción del primer botón
-                    }) {
-                        Text("Notas")
+                    NavigationLink(){
+                       Siri()
+                    }label: {
+                          
+                            Text("Cargar foto ")
                             .padding()
                             .background(Color.mint)
                             .foregroundColor(.white)
                             .cornerRadius(8)
+                    
                     }
                     Spacer()
-                    Button(action: {
-                        // Acción del segundo botón
-                    }) {
-                        Text("Calendario")
+                    NavigationLink(){
+                       Racha()
+                    }label: {
+                          
+                            Text("Cargar foto ")
                             .padding()
                             .background(Color.mint)
                             .foregroundColor(.white)
                             .cornerRadius(8)
+                    
                     }
                     Spacer()
-                    Button(action: {
-                        // Acción del tercer botón
-                    }) {
-                        Text("Perfil")
+                    NavigationLink(){
+                       Inspiracion()
+                    }label: {
+                          
+                            Text("Cargar foto ")
                             .padding()
                             .background(Color.mint)
                             .foregroundColor(.white)
                             .cornerRadius(8)
+                    
                     }
                     Spacer()
                 }//llave del Hstack

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB0BF9BD2AFF40DA002C44A0 /* Siri.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0BF9BC2AFF40DA002C44A0 /* Siri.swift */; };
+		AB0BF9BF2AFF4168002C44A0 /* Racha.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0BF9BE2AFF4168002C44A0 /* Racha.swift */; };
+		AB0BF9C12AFF41BE002C44A0 /* Inspiracion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0BF9C02AFF41BE002C44A0 /* Inspiracion.swift */; };
 		EC64C4172AFC15A4006D7B5E /* Calendario.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC64C4162AFC15A4006D7B5E /* Calendario.swift */; };
 		EC64C4192AFC1633006D7B5E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC64C4182AFC1633006D7B5E /* Item.swift */; };
 		EC7D49AF2AFBFFB30075BFDB /* ProyectoVerdeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7D49AE2AFBFFB30075BFDB /* ProyectoVerdeApp.swift */; };
@@ -50,6 +53,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB0BF9BC2AFF40DA002C44A0 /* Siri.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Siri.swift; sourceTree = "<group>"; };
+		AB0BF9BE2AFF4168002C44A0 /* Racha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Racha.swift; sourceTree = "<group>"; };
+		AB0BF9C02AFF41BE002C44A0 /* Inspiracion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inspiracion.swift; sourceTree = "<group>"; };
 		EC64C4142AFC1303006D7B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		EC64C4162AFC15A4006D7B5E /* Calendario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendario.swift; sourceTree = "<group>"; };
 		EC64C4182AFC1633006D7B5E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
@@ -105,6 +111,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB0BF9BA2AFF4095002C44A0 /* Botones */ = {
+			isa = PBXGroup;
+			children = (
+				AB0BF9BC2AFF40DA002C44A0 /* Siri.swift */,
+				AB0BF9BE2AFF4168002C44A0 /* Racha.swift */,
+				AB0BF9C02AFF41BE002C44A0 /* Inspiracion.swift */,
+			);
+			path = Botones;
+			sourceTree = "<group>";
+		};
 		EC64C4152AFC1590006D7B5E /* Calendario */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +153,7 @@
 				EC7D49B02AFBFFB30075BFDB /* ContentView.swift */,
 				EC7D49C12AFC02210075BFDB /* Login */,
 				EC64C4152AFC1590006D7B5E /* Calendario */,
+				AB0BF9BA2AFF4095002C44A0 /* Botones */,
 				EC7D49B22AFBFFB40075BFDB /* Assets.xcassets */,
 				EC7D49B72AFBFFB40075BFDB /* Persistence.swift */,
 				EC7D49C22AFC03050075BFDB /* GoogleService-Info.plist */,
@@ -278,7 +295,10 @@
 				EC7D4A002AFC0C490075BFDB /* HomePrueba.swift in Sources */,
 				EC7D49FC2AFC0BBF0075BFDB /* LoginViewModel.swift in Sources */,
 				EC7D49AF2AFBFFB30075BFDB /* ProyectoVerdeApp.swift in Sources */,
+				AB0BF9BF2AFF4168002C44A0 /* Racha.swift in Sources */,
+				AB0BF9C12AFF41BE002C44A0 /* Inspiracion.swift in Sources */,
 				EC64C4172AFC15A4006D7B5E /* Calendario.swift in Sources */,
+				AB0BF9BD2AFF40DA002C44A0 /* Siri.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
